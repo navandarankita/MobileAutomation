@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.HomeTest">
+        <methods>
+          <include name="Verify_HybridApp_9"/>
+          <include name="Verify_launch_page_fields_2"/>
+          <include name="Verify_launch_page_Negative_3"/>
+          <include name="Verify_Products_page_Add_to_cart_one_product_5"/>
+          <include name="Verify_Products_page_Add_to_cart_two_products_7"/>
+          <include name="tearDown"/>
+          <include name="startServer"/>
+          <include name="setUp"/>
+          <include name="Verify_Cart_page_Product_Price_6"/>
+          <include name="Launch_App_1"/>
+          <include name="stopServer"/>
+          <include name="Verify_Cart_page_Terms_and_notifications_checkBox_8"/>
+          <include name="Verify_launch_page_Positive_4"/>
+        </methods>
+      </class> <!-- tests.HomeTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
